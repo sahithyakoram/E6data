@@ -77,7 +77,7 @@ streamlit run src/dashboard/app.py
 - **Explainability**: Each score includes a textual explanation of why it was assigned.
 - **LLM Integration**: Uses Groq-powered AI judge to provide advanced evaluation beyond heuristics.
 - **Domain Support**: Example dataset includes multiple domains (QA, summarization, reasoning).
-## Add free api keys from Groq into the Groq_API_keys.json file under src
+## Add free api keys from Groq into the Groq_API_keys.json file under config
 ## Example Usage
 ```python
 from evaluation.evaluator import evaluate_agent_response
