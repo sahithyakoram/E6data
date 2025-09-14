@@ -1,0 +1,22 @@
+[
+  {
+    "agent_id": "Agent_001",
+    "prompt": "Translate 'Hello' to French.",
+    "response": "Bonjour"
+  },
+  {
+    "agent_id": "Agent_002",
+    "prompt": "Summarize the article on climate change.",
+    "response": "It talks about weather and politics."
+  },
+  {
+    "agent_id": "Agent_003",
+    "prompt": "List three benefits of solar energy.",
+    "response": "Solar energy is clean, renewable, and reduces electricity bills."
+  },
+  {
+  "agent_id": "Agent_004",
+  "prompt": "Explain the benefits of exercise.",
+  "response": "Clearly, exercise is the best thing ever. Everyone knows it cures all diseases."
+  }
+]

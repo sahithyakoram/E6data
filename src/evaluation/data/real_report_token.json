@@ -1,0 +1,3962 @@
+[
+  {
+    "agent_id": "agent_1",
+    "scores": {
+      "instruction_following": 6.51,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 35.01
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 73 words",
+      "hallucination_detection": "0 speculative cues found in 73 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "73 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_2",
+    "scores": {
+      "instruction_following": 6.58,
+      "coherence_accuracy": 9.71,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 34.85
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "4 issues detected in 136 words",
+      "hallucination_detection": "0 speculative cues found in 136 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "136 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_3",
+    "scores": {
+      "instruction_following": 6.78,
+      "coherence_accuracy": 9.88,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 35.18
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "1 issue detected in 82 words",
+      "hallucination_detection": "0 speculative cues found in 82 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "82 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_4",
+    "scores": {
+      "instruction_following": 7.77,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 10.0,
+      "assumption_control": 8.0,
+      "final": 37.77
+    },
+    "explanations": {
+      "instruction_following": "High semantic match",
+      "coherence_accuracy": "0 issues detected in 29 words",
+      "hallucination_detection": "0 speculative cues found in 29 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "29 words \u2013 Optimal length",
+      "assumption_control": "1 speculative cue found"
+    }
+  },
+  {
+    "agent_id": "agent_5",
+    "scores": {
+      "instruction_following": 6.4,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 10.0,
+      "assumption_control": 10.0,
+      "final": 37.4
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 43 words",
+      "hallucination_detection": "0 speculative cues found in 43 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "43 words \u2013 Optimal length",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_6",
+    "scores": {
+      "instruction_following": 7.61,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 8.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 35.11
+    },
+    "explanations": {
+      "instruction_following": "High semantic match",
+      "coherence_accuracy": "0 issues detected in 128 words",
+      "hallucination_detection": "0 speculative cues found in 128 words",
+      "style_matching": "1 informal phrase detected",
+      "length_penalty": "128 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_7",
+    "scores": {
+      "instruction_following": 4.99,
+      "coherence_accuracy": 8.75,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 10.0,
+      "assumption_control": 8.0,
+      "final": 33.99
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "6 issues detected in 48 words",
+      "hallucination_detection": "0 speculative cues found in 48 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "48 words \u2013 Optimal length",
+      "assumption_control": "1 speculative cue found"
+    }
+  },
+  {
+    "agent_id": "agent_8",
+    "scores": {
+      "instruction_following": 3.92,
+      "coherence_accuracy": 9.44,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 31.97
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "10 issues detected in 177 words",
+      "hallucination_detection": "0 speculative cues found in 177 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "177 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_9",
+    "scores": {
+      "instruction_following": 8.44,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 10.0,
+      "assumption_control": 10.0,
+      "final": 39.44
+    },
+    "explanations": {
+      "instruction_following": "High semantic match",
+      "coherence_accuracy": "0 issues detected in 44 words",
+      "hallucination_detection": "0 speculative cues found in 44 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "44 words \u2013 Optimal length",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_10",
+    "scores": {
+      "instruction_following": 0.36,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 8.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 27.86
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 69 words",
+      "hallucination_detection": "0 speculative cues found in 69 words",
+      "style_matching": "1 informal phrase detected",
+      "length_penalty": "69 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_11",
+    "scores": {
+      "instruction_following": 3.91,
+      "coherence_accuracy": 9.68,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 32.15
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "5 issues detected in 154 words",
+      "hallucination_detection": "0 speculative cues found in 154 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "154 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_12",
+    "scores": {
+      "instruction_following": 6.13,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 8.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 33.63
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 164 words",
+      "hallucination_detection": "0 speculative cues found in 164 words",
+      "style_matching": "1 informal phrase detected",
+      "length_penalty": "164 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_13",
+    "scores": {
+      "instruction_following": 3.35,
+      "coherence_accuracy": 9.86,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 31.74
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "1 issue detected in 71 words",
+      "hallucination_detection": "0 speculative cues found in 71 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "71 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_14",
+    "scores": {
+      "instruction_following": 4.71,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 10.0,
+      "assumption_control": 10.0,
+      "final": 35.71
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 35 words",
+      "hallucination_detection": "0 speculative cues found in 35 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "35 words \u2013 Optimal length",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_15",
+    "scores": {
+      "instruction_following": 2.11,
+      "coherence_accuracy": 9.63,
+      "hallucination_detection": 10.0,
+      "style_matching": 8.0,
+      "length_penalty": 10.0,
+      "assumption_control": 10.0,
+      "final": 31.81
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "1 issue detected in 27 words",
+      "hallucination_detection": "0 speculative cues found in 27 words",
+      "style_matching": "1 informal phrase detected",
+      "length_penalty": "27 words \u2013 Optimal length",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_16",
+    "scores": {
+      "instruction_following": 7.21,
+      "coherence_accuracy": 9.89,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 35.62
+    },
+    "explanations": {
+      "instruction_following": "High semantic match",
+      "coherence_accuracy": "1 issue detected in 88 words",
+      "hallucination_detection": "0 speculative cues found in 88 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "88 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_17",
+    "scores": {
+      "instruction_following": 1.26,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 10.0,
+      "assumption_control": 10.0,
+      "final": 32.26
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 36 words",
+      "hallucination_detection": "0 speculative cues found in 36 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "36 words \u2013 Optimal length",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_18",
+    "scores": {
+      "instruction_following": 0.32,
+      "coherence_accuracy": 9.69,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 28.57
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "2 issues detected in 65 words",
+      "hallucination_detection": "0 speculative cues found in 65 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "65 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_19",
+    "scores": {
+      "instruction_following": 3.35,
+      "coherence_accuracy": 9.67,
+      "hallucination_detection": 10.0,
+      "style_matching": 8.0,
+      "length_penalty": 10.0,
+      "assumption_control": 10.0,
+      "final": 33.09
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "1 issue detected in 30 words",
+      "hallucination_detection": "0 speculative cues found in 30 words",
+      "style_matching": "1 informal phrase detected",
+      "length_penalty": "30 words \u2013 Optimal length",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_20",
+    "scores": {
+      "instruction_following": 2.89,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 31.39
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 64 words",
+      "hallucination_detection": "0 speculative cues found in 64 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "64 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_21",
+    "scores": {
+      "instruction_following": 4.98,
+      "coherence_accuracy": 7.78,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 10.0,
+      "assumption_control": 10.0,
+      "final": 34.2
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "2 issues detected in 9 words",
+      "hallucination_detection": "0 speculative cues found in 9 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "9 words \u2013 Optimal length",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_22",
+    "scores": {
+      "instruction_following": 4.07,
+      "coherence_accuracy": 9.93,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 32.51
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "1 issue detected in 153 words",
+      "hallucination_detection": "0 speculative cues found in 153 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "153 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_23",
+    "scores": {
+      "instruction_following": 0.71,
+      "coherence_accuracy": 9.46,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 10.0,
+      "assumption_control": 10.0,
+      "final": 31.28
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "2 issues detected in 37 words",
+      "hallucination_detection": "0 speculative cues found in 37 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "37 words \u2013 Optimal length",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_24",
+    "scores": {
+      "instruction_following": 2.74,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 31.24
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 100 words",
+      "hallucination_detection": "0 speculative cues found in 100 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "100 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_25",
+    "scores": {
+      "instruction_following": 3.66,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 8.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 31.16
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 168 words",
+      "hallucination_detection": "0 speculative cues found in 168 words",
+      "style_matching": "1 informal phrase detected",
+      "length_penalty": "168 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_26",
+    "scores": {
+      "instruction_following": 5.1,
+      "coherence_accuracy": 9.41,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 10.0,
+      "assumption_control": 10.0,
+      "final": 35.63
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "2 issues detected in 34 words",
+      "hallucination_detection": "0 speculative cues found in 34 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "34 words \u2013 Optimal length",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_27",
+    "scores": {
+      "instruction_following": 7.29,
+      "coherence_accuracy": 9.86,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 35.68
+    },
+    "explanations": {
+      "instruction_following": "High semantic match",
+      "coherence_accuracy": "1 issue detected in 74 words",
+      "hallucination_detection": "0 speculative cues found in 74 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "74 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_28",
+    "scores": {
+      "instruction_following": 7.54,
+      "coherence_accuracy": 9.86,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 8.0,
+      "final": 34.93
+    },
+    "explanations": {
+      "instruction_following": "High semantic match",
+      "coherence_accuracy": "1 issue detected in 71 words",
+      "hallucination_detection": "0 speculative cues found in 71 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "71 words \u2013 Too long",
+      "assumption_control": "1 speculative cue found"
+    }
+  },
+  {
+    "agent_id": "agent_29",
+    "scores": {
+      "instruction_following": 7.02,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 8.0,
+      "length_penalty": 5.0,
+      "assumption_control": 8.0,
+      "final": 33.52
+    },
+    "explanations": {
+      "instruction_following": "High semantic match",
+      "coherence_accuracy": "0 issues detected in 125 words",
+      "hallucination_detection": "0 speculative cues found in 125 words",
+      "style_matching": "1 informal phrase detected",
+      "length_penalty": "125 words \u2013 Too long",
+      "assumption_control": "1 speculative cue found"
+    }
+  },
+  {
+    "agent_id": "agent_30",
+    "scores": {
+      "instruction_following": 0.74,
+      "coherence_accuracy": 9.71,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 29.01
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "2 issues detected in 68 words",
+      "hallucination_detection": "0 speculative cues found in 68 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "68 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_31",
+    "scores": {
+      "instruction_following": 4.65,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 33.15
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 111 words",
+      "hallucination_detection": "0 speculative cues found in 111 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "111 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_32",
+    "scores": {
+      "instruction_following": 6.38,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 34.88
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 153 words",
+      "hallucination_detection": "0 speculative cues found in 153 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "153 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_33",
+    "scores": {
+      "instruction_following": 7.15,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 8.0,
+      "length_penalty": 10.0,
+      "assumption_control": 10.0,
+      "final": 37.15
+    },
+    "explanations": {
+      "instruction_following": "High semantic match",
+      "coherence_accuracy": "0 issues detected in 21 words",
+      "hallucination_detection": "0 speculative cues found in 21 words",
+      "style_matching": "1 informal phrase detected",
+      "length_penalty": "21 words \u2013 Optimal length",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_34",
+    "scores": {
+      "instruction_following": 6.64,
+      "coherence_accuracy": 9.72,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 8.0,
+      "final": 33.92
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "4 issues detected in 143 words",
+      "hallucination_detection": "0 speculative cues found in 143 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "143 words \u2013 Too long",
+      "assumption_control": "1 speculative cue found"
+    }
+  },
+  {
+    "agent_id": "agent_35",
+    "scores": {
+      "instruction_following": 3.39,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 31.89
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 66 words",
+      "hallucination_detection": "0 speculative cues found in 66 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "66 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_36",
+    "scores": {
+      "instruction_following": 7.09,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 10.0,
+      "assumption_control": 10.0,
+      "final": 38.09
+    },
+    "explanations": {
+      "instruction_following": "High semantic match",
+      "coherence_accuracy": "0 issues detected in 16 words",
+      "hallucination_detection": "0 speculative cues found in 16 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "16 words \u2013 Optimal length",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_37",
+    "scores": {
+      "instruction_following": 5.68,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 10.0,
+      "assumption_control": 10.0,
+      "final": 36.68
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 17 words",
+      "hallucination_detection": "0 speculative cues found in 17 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "17 words \u2013 Optimal length",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_38",
+    "scores": {
+      "instruction_following": 7.2,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 8.0,
+      "length_penalty": 10.0,
+      "assumption_control": 10.0,
+      "final": 37.2
+    },
+    "explanations": {
+      "instruction_following": "High semantic match",
+      "coherence_accuracy": "0 issues detected in 24 words",
+      "hallucination_detection": "0 speculative cues found in 24 words",
+      "style_matching": "1 informal phrase detected",
+      "length_penalty": "24 words \u2013 Optimal length",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_39",
+    "scores": {
+      "instruction_following": 0.26,
+      "coherence_accuracy": 9.67,
+      "hallucination_detection": 10.0,
+      "style_matching": 8.0,
+      "length_penalty": 10.0,
+      "assumption_control": 10.0,
+      "final": 30.0
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "1 issue detected in 30 words",
+      "hallucination_detection": "0 speculative cues found in 30 words",
+      "style_matching": "1 informal phrase detected",
+      "length_penalty": "30 words \u2013 Optimal length",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_40",
+    "scores": {
+      "instruction_following": 5.22,
+      "coherence_accuracy": 9.58,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 10.0,
+      "assumption_control": 10.0,
+      "final": 35.88
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "1 issue detected in 24 words",
+      "hallucination_detection": "0 speculative cues found in 24 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "24 words \u2013 Optimal length",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_41",
+    "scores": {
+      "instruction_following": 7.52,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 36.02
+    },
+    "explanations": {
+      "instruction_following": "High semantic match",
+      "coherence_accuracy": "0 issues detected in 96 words",
+      "hallucination_detection": "0 speculative cues found in 96 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "96 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_42",
+    "scores": {
+      "instruction_following": 7.27,
+      "coherence_accuracy": 9.8,
+      "hallucination_detection": 10.0,
+      "style_matching": 8.0,
+      "length_penalty": 5.0,
+      "assumption_control": 8.0,
+      "final": 33.61
+    },
+    "explanations": {
+      "instruction_following": "High semantic match",
+      "coherence_accuracy": "1 issue detected in 51 words",
+      "hallucination_detection": "0 speculative cues found in 51 words",
+      "style_matching": "1 informal phrase detected",
+      "length_penalty": "51 words \u2013 Too long",
+      "assumption_control": "1 speculative cue found"
+    }
+  },
+  {
+    "agent_id": "agent_43",
+    "scores": {
+      "instruction_following": 4.86,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 8.0,
+      "length_penalty": 5.0,
+      "assumption_control": 8.0,
+      "final": 31.36
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 114 words",
+      "hallucination_detection": "0 speculative cues found in 114 words",
+      "style_matching": "1 informal phrase detected",
+      "length_penalty": "114 words \u2013 Too long",
+      "assumption_control": "1 speculative cue found"
+    }
+  },
+  {
+    "agent_id": "agent_44",
+    "scores": {
+      "instruction_following": 4.97,
+      "coherence_accuracy": 9.89,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 33.38
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "1 issue detected in 88 words",
+      "hallucination_detection": "0 speculative cues found in 88 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "88 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_45",
+    "scores": {
+      "instruction_following": 7.28,
+      "coherence_accuracy": 9.91,
+      "hallucination_detection": 10.0,
+      "style_matching": 8.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 34.71
+    },
+    "explanations": {
+      "instruction_following": "High semantic match",
+      "coherence_accuracy": "1 issue detected in 116 words",
+      "hallucination_detection": "0 speculative cues found in 116 words",
+      "style_matching": "1 informal phrase detected",
+      "length_penalty": "116 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_47",
+    "scores": {
+      "instruction_following": 6.99,
+      "coherence_accuracy": 9.72,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 35.27
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "3 issues detected in 107 words",
+      "hallucination_detection": "0 speculative cues found in 107 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "107 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_48",
+    "scores": {
+      "instruction_following": 7.34,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 8.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 34.84
+    },
+    "explanations": {
+      "instruction_following": "High semantic match",
+      "coherence_accuracy": "0 issues detected in 165 words",
+      "hallucination_detection": "0 speculative cues found in 165 words",
+      "style_matching": "1 informal phrase detected",
+      "length_penalty": "165 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_49",
+    "scores": {
+      "instruction_following": 7.45,
+      "coherence_accuracy": 9.82,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 35.81
+    },
+    "explanations": {
+      "instruction_following": "High semantic match",
+      "coherence_accuracy": "1 issue detected in 56 words",
+      "hallucination_detection": "0 speculative cues found in 56 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "56 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_50",
+    "scores": {
+      "instruction_following": 6.47,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 10.0,
+      "assumption_control": 10.0,
+      "final": 37.47
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 23 words",
+      "hallucination_detection": "0 speculative cues found in 23 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "23 words \u2013 Optimal length",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_51",
+    "scores": {
+      "instruction_following": 5.88,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 8.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 33.38
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 62 words",
+      "hallucination_detection": "0 speculative cues found in 62 words",
+      "style_matching": "1 informal phrase detected",
+      "length_penalty": "62 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_52",
+    "scores": {
+      "instruction_following": 8.51,
+      "coherence_accuracy": 9.9,
+      "hallucination_detection": 10.0,
+      "style_matching": 8.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 35.93
+    },
+    "explanations": {
+      "instruction_following": "High semantic match",
+      "coherence_accuracy": "1 issue detected in 104 words",
+      "hallucination_detection": "0 speculative cues found in 104 words",
+      "style_matching": "1 informal phrase detected",
+      "length_penalty": "104 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_53",
+    "scores": {
+      "instruction_following": 7.71,
+      "coherence_accuracy": 9.84,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 36.08
+    },
+    "explanations": {
+      "instruction_following": "High semantic match",
+      "coherence_accuracy": "1 issue detected in 61 words",
+      "hallucination_detection": "0 speculative cues found in 61 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "61 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_54",
+    "scores": {
+      "instruction_following": 5.45,
+      "coherence_accuracy": 9.89,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 33.86
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "1 issue detected in 94 words",
+      "hallucination_detection": "0 speculative cues found in 94 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "94 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_55",
+    "scores": {
+      "instruction_following": 6.53,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 35.03
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 60 words",
+      "hallucination_detection": "0 speculative cues found in 60 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "60 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_56",
+    "scores": {
+      "instruction_following": 6.05,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 34.55
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 100 words",
+      "hallucination_detection": "0 speculative cues found in 100 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "100 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_57",
+    "scores": {
+      "instruction_following": 6.55,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 8.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 34.05
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 84 words",
+      "hallucination_detection": "0 speculative cues found in 84 words",
+      "style_matching": "1 informal phrase detected",
+      "length_penalty": "84 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_58",
+    "scores": {
+      "instruction_following": 6.21,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 8.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 33.71
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 70 words",
+      "hallucination_detection": "0 speculative cues found in 70 words",
+      "style_matching": "1 informal phrase detected",
+      "length_penalty": "70 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_59",
+    "scores": {
+      "instruction_following": 5.87,
+      "coherence_accuracy": 9.74,
+      "hallucination_detection": 10.0,
+      "style_matching": 8.0,
+      "length_penalty": 10.0,
+      "assumption_control": 10.0,
+      "final": 35.66
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "1 issue detected in 39 words",
+      "hallucination_detection": "0 speculative cues found in 39 words",
+      "style_matching": "1 informal phrase detected",
+      "length_penalty": "39 words \u2013 Optimal length",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_60",
+    "scores": {
+      "instruction_following": 6.47,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 10.0,
+      "assumption_control": 8.0,
+      "final": 36.47
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 37 words",
+      "hallucination_detection": "0 speculative cues found in 37 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "37 words \u2013 Optimal length",
+      "assumption_control": "1 speculative cue found"
+    }
+  },
+  {
+    "agent_id": "agent_61",
+    "scores": {
+      "instruction_following": 5.68,
+      "coherence_accuracy": 8.57,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 10.0,
+      "assumption_control": 10.0,
+      "final": 35.54
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "2 issues detected in 14 words",
+      "hallucination_detection": "0 speculative cues found in 14 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "14 words \u2013 Optimal length",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_62",
+    "scores": {
+      "instruction_following": 7.77,
+      "coherence_accuracy": 9.49,
+      "hallucination_detection": 10.0,
+      "style_matching": 8.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 34.86
+    },
+    "explanations": {
+      "instruction_following": "High semantic match",
+      "coherence_accuracy": "4 issues detected in 79 words",
+      "hallucination_detection": "0 speculative cues found in 79 words",
+      "style_matching": "1 informal phrase detected",
+      "length_penalty": "79 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_63",
+    "scores": {
+      "instruction_following": 5.21,
+      "coherence_accuracy": 9.78,
+      "hallucination_detection": 10.0,
+      "style_matching": 8.0,
+      "length_penalty": 10.0,
+      "assumption_control": 10.0,
+      "final": 35.03
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "1 issue detected in 46 words",
+      "hallucination_detection": "0 speculative cues found in 46 words",
+      "style_matching": "1 informal phrase detected",
+      "length_penalty": "46 words \u2013 Optimal length",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_64",
+    "scores": {
+      "instruction_following": 7.21,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 10.0,
+      "assumption_control": 10.0,
+      "final": 38.21
+    },
+    "explanations": {
+      "instruction_following": "High semantic match",
+      "coherence_accuracy": "0 issues detected in 32 words",
+      "hallucination_detection": "0 speculative cues found in 32 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "32 words \u2013 Optimal length",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_65",
+    "scores": {
+      "instruction_following": 6.6,
+      "coherence_accuracy": 8.62,
+      "hallucination_detection": 10.0,
+      "style_matching": 8.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 33.0
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "11 issues detected in 80 words",
+      "hallucination_detection": "0 speculative cues found in 80 words",
+      "style_matching": "1 informal phrase detected",
+      "length_penalty": "80 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_66",
+    "scores": {
+      "instruction_following": 5.11,
+      "coherence_accuracy": 8.64,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 10.0,
+      "assumption_control": 10.0,
+      "final": 35.02
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "3 issues detected in 22 words",
+      "hallucination_detection": "0 speculative cues found in 22 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "22 words \u2013 Optimal length",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_67",
+    "scores": {
+      "instruction_following": 6.11,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 10.0,
+      "assumption_control": 10.0,
+      "final": 37.11
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 32 words",
+      "hallucination_detection": "0 speculative cues found in 32 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "32 words \u2013 Optimal length",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_68",
+    "scores": {
+      "instruction_following": 6.27,
+      "coherence_accuracy": 9.71,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 34.54
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "2 issues detected in 68 words",
+      "hallucination_detection": "0 speculative cues found in 68 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "68 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_69",
+    "scores": {
+      "instruction_following": 7.45,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 10.0,
+      "assumption_control": 10.0,
+      "final": 38.45
+    },
+    "explanations": {
+      "instruction_following": "High semantic match",
+      "coherence_accuracy": "0 issues detected in 24 words",
+      "hallucination_detection": "0 speculative cues found in 24 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "24 words \u2013 Optimal length",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_70",
+    "scores": {
+      "instruction_following": 5.66,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 8.0,
+      "length_penalty": 5.0,
+      "assumption_control": 6.0,
+      "final": 31.16
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 124 words",
+      "hallucination_detection": "0 speculative cues found in 124 words",
+      "style_matching": "1 informal phrase detected",
+      "length_penalty": "124 words \u2013 Too long",
+      "assumption_control": "2 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_71",
+    "scores": {
+      "instruction_following": 0.43,
+      "coherence_accuracy": 9.85,
+      "hallucination_detection": 10.0,
+      "style_matching": 8.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 27.81
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "1 issue detected in 65 words",
+      "hallucination_detection": "0 speculative cues found in 65 words",
+      "style_matching": "1 informal phrase detected",
+      "length_penalty": "65 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_72",
+    "scores": {
+      "instruction_following": 3.66,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 8.0,
+      "final": 31.16
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 53 words",
+      "hallucination_detection": "0 speculative cues found in 53 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "53 words \u2013 Too long",
+      "assumption_control": "1 speculative cue found"
+    }
+  },
+  {
+    "agent_id": "agent_73",
+    "scores": {
+      "instruction_following": 5.6,
+      "coherence_accuracy": 9.78,
+      "hallucination_detection": 10.0,
+      "style_matching": 8.0,
+      "length_penalty": 10.0,
+      "assumption_control": 10.0,
+      "final": 35.42
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "1 issue detected in 45 words",
+      "hallucination_detection": "0 speculative cues found in 45 words",
+      "style_matching": "1 informal phrase detected",
+      "length_penalty": "45 words \u2013 Optimal length",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_74",
+    "scores": {
+      "instruction_following": 4.09,
+      "coherence_accuracy": 9.92,
+      "hallucination_detection": 10.0,
+      "style_matching": 8.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 31.53
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "1 issue detected in 133 words",
+      "hallucination_detection": "0 speculative cues found in 133 words",
+      "style_matching": "1 informal phrase detected",
+      "length_penalty": "133 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_75",
+    "scores": {
+      "instruction_following": 8.11,
+      "coherence_accuracy": 9.66,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 36.34
+    },
+    "explanations": {
+      "instruction_following": "High semantic match",
+      "coherence_accuracy": "3 issues detected in 88 words",
+      "hallucination_detection": "0 speculative cues found in 88 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "88 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_76",
+    "scores": {
+      "instruction_following": 4.95,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 8.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 32.45
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 136 words",
+      "hallucination_detection": "0 speculative cues found in 136 words",
+      "style_matching": "1 informal phrase detected",
+      "length_penalty": "136 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_77",
+    "scores": {
+      "instruction_following": 5.94,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 8.0,
+      "final": 33.44
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 137 words",
+      "hallucination_detection": "0 speculative cues found in 137 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "137 words \u2013 Too long",
+      "assumption_control": "1 speculative cue found"
+    }
+  },
+  {
+    "agent_id": "agent_78",
+    "scores": {
+      "instruction_following": 6.3,
+      "coherence_accuracy": 9.74,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 34.59
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "3 issues detected in 117 words",
+      "hallucination_detection": "0 speculative cues found in 117 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "117 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_79",
+    "scores": {
+      "instruction_following": 0.3,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 8.0,
+      "length_penalty": 10.0,
+      "assumption_control": 10.0,
+      "final": 30.3
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 29 words",
+      "hallucination_detection": "0 speculative cues found in 29 words",
+      "style_matching": "1 informal phrase detected",
+      "length_penalty": "29 words \u2013 Optimal length",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_80",
+    "scores": {
+      "instruction_following": 0.39,
+      "coherence_accuracy": 9.49,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 10.0,
+      "assumption_control": 10.0,
+      "final": 30.98
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "2 issues detected in 39 words",
+      "hallucination_detection": "0 speculative cues found in 39 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "39 words \u2013 Optimal length",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_81",
+    "scores": {
+      "instruction_following": 7.87,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 8.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 35.37
+    },
+    "explanations": {
+      "instruction_following": "High semantic match",
+      "coherence_accuracy": "0 issues detected in 55 words",
+      "hallucination_detection": "0 speculative cues found in 55 words",
+      "style_matching": "1 informal phrase detected",
+      "length_penalty": "55 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_82",
+    "scores": {
+      "instruction_following": 6.95,
+      "coherence_accuracy": 9.84,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 35.32
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "1 issue detected in 63 words",
+      "hallucination_detection": "0 speculative cues found in 63 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "63 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_83",
+    "scores": {
+      "instruction_following": 8.2,
+      "coherence_accuracy": 9.85,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 36.58
+    },
+    "explanations": {
+      "instruction_following": "High semantic match",
+      "coherence_accuracy": "1 issue detected in 67 words",
+      "hallucination_detection": "0 speculative cues found in 67 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "67 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_84",
+    "scores": {
+      "instruction_following": 5.09,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 8.0,
+      "final": 32.59
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 74 words",
+      "hallucination_detection": "0 speculative cues found in 74 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "74 words \u2013 Too long",
+      "assumption_control": "1 speculative cue found"
+    }
+  },
+  {
+    "agent_id": "agent_85",
+    "scores": {
+      "instruction_following": 2.08,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 8.0,
+      "length_penalty": 5.0,
+      "assumption_control": 8.0,
+      "final": 28.58
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 64 words",
+      "hallucination_detection": "0 speculative cues found in 64 words",
+      "style_matching": "1 informal phrase detected",
+      "length_penalty": "64 words \u2013 Too long",
+      "assumption_control": "1 speculative cue found"
+    }
+  },
+  {
+    "agent_id": "agent_86",
+    "scores": {
+      "instruction_following": 4.91,
+      "coherence_accuracy": 9.84,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 8.0,
+      "final": 32.28
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "1 issue detected in 64 words",
+      "hallucination_detection": "0 speculative cues found in 64 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "64 words \u2013 Too long",
+      "assumption_control": "1 speculative cue found"
+    }
+  },
+  {
+    "agent_id": "agent_87",
+    "scores": {
+      "instruction_following": 2.96,
+      "coherence_accuracy": 9.35,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 10.0,
+      "assumption_control": 10.0,
+      "final": 33.44
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "2 issues detected in 31 words",
+      "hallucination_detection": "0 speculative cues found in 31 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "31 words \u2013 Optimal length",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_88",
+    "scores": {
+      "instruction_following": 5.87,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 10.0,
+      "assumption_control": 10.0,
+      "final": 36.87
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 24 words",
+      "hallucination_detection": "0 speculative cues found in 24 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "24 words \u2013 Optimal length",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_89",
+    "scores": {
+      "instruction_following": 3.34,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 8.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 30.84
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 92 words",
+      "hallucination_detection": "0 speculative cues found in 92 words",
+      "style_matching": "1 informal phrase detected",
+      "length_penalty": "92 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_90",
+    "scores": {
+      "instruction_following": 6.84,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 35.34
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 91 words",
+      "hallucination_detection": "0 speculative cues found in 91 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "91 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_91",
+    "scores": {
+      "instruction_following": 6.63,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 35.13
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 131 words",
+      "hallucination_detection": "0 speculative cues found in 131 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "131 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_92",
+    "scores": {
+      "instruction_following": 3.21,
+      "coherence_accuracy": 9.86,
+      "hallucination_detection": 10.0,
+      "style_matching": 8.0,
+      "length_penalty": 5.0,
+      "assumption_control": 6.0,
+      "final": 28.6
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "1 issue detected in 72 words",
+      "hallucination_detection": "0 speculative cues found in 72 words",
+      "style_matching": "1 informal phrase detected",
+      "length_penalty": "72 words \u2013 Too long",
+      "assumption_control": "2 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_93",
+    "scores": {
+      "instruction_following": 5.19,
+      "coherence_accuracy": 9.82,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 33.55
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "2 issues detected in 114 words",
+      "hallucination_detection": "0 speculative cues found in 114 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "114 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_94",
+    "scores": {
+      "instruction_following": 7.29,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 10.0,
+      "assumption_control": 10.0,
+      "final": 38.29
+    },
+    "explanations": {
+      "instruction_following": "High semantic match",
+      "coherence_accuracy": "0 issues detected in 46 words",
+      "hallucination_detection": "0 speculative cues found in 46 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "46 words \u2013 Optimal length",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_95",
+    "scores": {
+      "instruction_following": 7.47,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 10.0,
+      "assumption_control": 10.0,
+      "final": 38.47
+    },
+    "explanations": {
+      "instruction_following": "High semantic match",
+      "coherence_accuracy": "0 issues detected in 7 words",
+      "hallucination_detection": "0 speculative cues found in 7 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "7 words \u2013 Optimal length",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_96",
+    "scores": {
+      "instruction_following": 7.01,
+      "coherence_accuracy": 9.87,
+      "hallucination_detection": 10.0,
+      "style_matching": 8.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 34.41
+    },
+    "explanations": {
+      "instruction_following": "High semantic match",
+      "coherence_accuracy": "2 issues detected in 159 words",
+      "hallucination_detection": "0 speculative cues found in 159 words",
+      "style_matching": "1 informal phrase detected",
+      "length_penalty": "159 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_97",
+    "scores": {
+      "instruction_following": 7.19,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 8.0,
+      "final": 34.69
+    },
+    "explanations": {
+      "instruction_following": "High semantic match",
+      "coherence_accuracy": "0 issues detected in 58 words",
+      "hallucination_detection": "0 speculative cues found in 58 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "58 words \u2013 Too long",
+      "assumption_control": "1 speculative cue found"
+    }
+  },
+  {
+    "agent_id": "agent_98",
+    "scores": {
+      "instruction_following": 7.0,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 8.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 34.5
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 63 words",
+      "hallucination_detection": "0 speculative cues found in 63 words",
+      "style_matching": "1 informal phrase detected",
+      "length_penalty": "63 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_99",
+    "scores": {
+      "instruction_following": 3.68,
+      "coherence_accuracy": 8.74,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 31.17
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "16 issues detected in 127 words",
+      "hallucination_detection": "0 speculative cues found in 127 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "127 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_100",
+    "scores": {
+      "instruction_following": 7.49,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 8.0,
+      "final": 34.99
+    },
+    "explanations": {
+      "instruction_following": "High semantic match",
+      "coherence_accuracy": "0 issues detected in 79 words",
+      "hallucination_detection": "0 speculative cues found in 79 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "79 words \u2013 Too long",
+      "assumption_control": "1 speculative cue found"
+    }
+  },
+  {
+    "agent_id": "agent_101",
+    "scores": {
+      "instruction_following": 5.24,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 33.74
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 52 words",
+      "hallucination_detection": "0 speculative cues found in 52 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "52 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_102",
+    "scores": {
+      "instruction_following": 8.11,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 10.0,
+      "assumption_control": 10.0,
+      "final": 39.11
+    },
+    "explanations": {
+      "instruction_following": "High semantic match",
+      "coherence_accuracy": "0 issues detected in 40 words",
+      "hallucination_detection": "0 speculative cues found in 40 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "40 words \u2013 Optimal length",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_103",
+    "scores": {
+      "instruction_following": 5.0,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 3.0,
+      "assumption_control": 10.0,
+      "final": 32.5
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 3 words",
+      "hallucination_detection": "0 speculative cues found in 3 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "3 words \u2013 Too short",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_104",
+    "scores": {
+      "instruction_following": 1.16,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 8.0,
+      "length_penalty": 5.0,
+      "assumption_control": 8.0,
+      "final": 27.66
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 213 words",
+      "hallucination_detection": "0 speculative cues found in 213 words",
+      "style_matching": "1 informal phrase detected",
+      "length_penalty": "213 words \u2013 Too long",
+      "assumption_control": "1 speculative cue found"
+    }
+  },
+  {
+    "agent_id": "agent_105",
+    "scores": {
+      "instruction_following": 7.52,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 10.0,
+      "assumption_control": 10.0,
+      "final": 38.52
+    },
+    "explanations": {
+      "instruction_following": "High semantic match",
+      "coherence_accuracy": "0 issues detected in 10 words",
+      "hallucination_detection": "0 speculative cues found in 10 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "10 words \u2013 Optimal length",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_106",
+    "scores": {
+      "instruction_following": 7.65,
+      "coherence_accuracy": 9.13,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 10.0,
+      "assumption_control": 10.0,
+      "final": 37.95
+    },
+    "explanations": {
+      "instruction_following": "High semantic match",
+      "coherence_accuracy": "2 issues detected in 23 words",
+      "hallucination_detection": "0 speculative cues found in 23 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "23 words \u2013 Optimal length",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_107",
+    "scores": {
+      "instruction_following": 6.6,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 8.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 34.1
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 79 words",
+      "hallucination_detection": "0 speculative cues found in 79 words",
+      "style_matching": "1 informal phrase detected",
+      "length_penalty": "79 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_108",
+    "scores": {
+      "instruction_following": 5.11,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 33.61
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 157 words",
+      "hallucination_detection": "0 speculative cues found in 157 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "157 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_109",
+    "scores": {
+      "instruction_following": 7.08,
+      "coherence_accuracy": 9.87,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 35.48
+    },
+    "explanations": {
+      "instruction_following": "High semantic match",
+      "coherence_accuracy": "1 issue detected in 75 words",
+      "hallucination_detection": "0 speculative cues found in 75 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "75 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_110",
+    "scores": {
+      "instruction_following": 7.05,
+      "coherence_accuracy": 9.29,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 10.0,
+      "assumption_control": 10.0,
+      "final": 37.48
+    },
+    "explanations": {
+      "instruction_following": "High semantic match",
+      "coherence_accuracy": "2 issues detected in 28 words",
+      "hallucination_detection": "0 speculative cues found in 28 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "28 words \u2013 Optimal length",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_111",
+    "scores": {
+      "instruction_following": 7.46,
+      "coherence_accuracy": 9.89,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 35.87
+    },
+    "explanations": {
+      "instruction_following": "High semantic match",
+      "coherence_accuracy": "1 issue detected in 87 words",
+      "hallucination_detection": "0 speculative cues found in 87 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "87 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_112",
+    "scores": {
+      "instruction_following": 8.32,
+      "coherence_accuracy": 9.89,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 36.73
+    },
+    "explanations": {
+      "instruction_following": "High semantic match",
+      "coherence_accuracy": "1 issue detected in 89 words",
+      "hallucination_detection": "0 speculative cues found in 89 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "89 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_113",
+    "scores": {
+      "instruction_following": 6.34,
+      "coherence_accuracy": 9.78,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 8.0,
+      "final": 33.66
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "3 issues detected in 137 words",
+      "hallucination_detection": "0 speculative cues found in 137 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "137 words \u2013 Too long",
+      "assumption_control": "1 speculative cue found"
+    }
+  },
+  {
+    "agent_id": "agent_114",
+    "scores": {
+      "instruction_following": 6.53,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 10.0,
+      "assumption_control": 10.0,
+      "final": 37.53
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 23 words",
+      "hallucination_detection": "0 speculative cues found in 23 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "23 words \u2013 Optimal length",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_115",
+    "scores": {
+      "instruction_following": 7.85,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 8.0,
+      "length_penalty": 10.0,
+      "assumption_control": 10.0,
+      "final": 37.85
+    },
+    "explanations": {
+      "instruction_following": "High semantic match",
+      "coherence_accuracy": "0 issues detected in 42 words",
+      "hallucination_detection": "0 speculative cues found in 42 words",
+      "style_matching": "1 informal phrase detected",
+      "length_penalty": "42 words \u2013 Optimal length",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_116",
+    "scores": {
+      "instruction_following": 7.14,
+      "coherence_accuracy": 8.75,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 10.0,
+      "assumption_control": 10.0,
+      "final": 37.14
+    },
+    "explanations": {
+      "instruction_following": "High semantic match",
+      "coherence_accuracy": "2 issues detected in 16 words",
+      "hallucination_detection": "0 speculative cues found in 16 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "16 words \u2013 Optimal length",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_117",
+    "scores": {
+      "instruction_following": 5.47,
+      "coherence_accuracy": 9.8,
+      "hallucination_detection": 10.0,
+      "style_matching": 8.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 32.81
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "3 issues detected in 151 words",
+      "hallucination_detection": "0 speculative cues found in 151 words",
+      "style_matching": "1 informal phrase detected",
+      "length_penalty": "151 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_118",
+    "scores": {
+      "instruction_following": 8.5,
+      "coherence_accuracy": 9.83,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 36.86
+    },
+    "explanations": {
+      "instruction_following": "High semantic match",
+      "coherence_accuracy": "1 issue detected in 60 words",
+      "hallucination_detection": "0 speculative cues found in 60 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "60 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_119",
+    "scores": {
+      "instruction_following": 5.53,
+      "coherence_accuracy": 9.81,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 8.0,
+      "final": 32.88
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "1 issue detected in 54 words",
+      "hallucination_detection": "0 speculative cues found in 54 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "54 words \u2013 Too long",
+      "assumption_control": "1 speculative cue found"
+    }
+  },
+  {
+    "agent_id": "agent_120",
+    "scores": {
+      "instruction_following": 4.55,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 10.0,
+      "assumption_control": 10.0,
+      "final": 35.55
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 24 words",
+      "hallucination_detection": "0 speculative cues found in 24 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "24 words \u2013 Optimal length",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_121",
+    "scores": {
+      "instruction_following": 5.02,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 33.52
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 64 words",
+      "hallucination_detection": "0 speculative cues found in 64 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "64 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_122",
+    "scores": {
+      "instruction_following": 4.12,
+      "coherence_accuracy": 9.86,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 32.51
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "1 issue detected in 69 words",
+      "hallucination_detection": "0 speculative cues found in 69 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "69 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_123",
+    "scores": {
+      "instruction_following": 5.68,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 10.0,
+      "assumption_control": 10.0,
+      "final": 36.68
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 32 words",
+      "hallucination_detection": "0 speculative cues found in 32 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "32 words \u2013 Optimal length",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_124",
+    "scores": {
+      "instruction_following": 6.22,
+      "coherence_accuracy": 9.46,
+      "hallucination_detection": 10.0,
+      "style_matching": 8.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 33.29
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "5 issues detected in 93 words",
+      "hallucination_detection": "0 speculative cues found in 93 words",
+      "style_matching": "1 informal phrase detected",
+      "length_penalty": "93 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_125",
+    "scores": {
+      "instruction_following": 7.94,
+      "coherence_accuracy": 9.71,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 8.0,
+      "final": 35.21
+    },
+    "explanations": {
+      "instruction_following": "High semantic match",
+      "coherence_accuracy": "3 issues detected in 103 words",
+      "hallucination_detection": "0 speculative cues found in 103 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "103 words \u2013 Too long",
+      "assumption_control": "1 speculative cue found"
+    }
+  },
+  {
+    "agent_id": "agent_126",
+    "scores": {
+      "instruction_following": 7.71,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 8.0,
+      "final": 35.21
+    },
+    "explanations": {
+      "instruction_following": "High semantic match",
+      "coherence_accuracy": "0 issues detected in 55 words",
+      "hallucination_detection": "0 speculative cues found in 55 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "55 words \u2013 Too long",
+      "assumption_control": "1 speculative cue found"
+    }
+  },
+  {
+    "agent_id": "agent_127",
+    "scores": {
+      "instruction_following": 7.7,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 36.2
+    },
+    "explanations": {
+      "instruction_following": "High semantic match",
+      "coherence_accuracy": "0 issues detected in 73 words",
+      "hallucination_detection": "0 speculative cues found in 73 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "73 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_128",
+    "scores": {
+      "instruction_following": 4.73,
+      "coherence_accuracy": 9.5,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 32.83
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "8 issues detected in 159 words",
+      "hallucination_detection": "0 speculative cues found in 159 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "159 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_129",
+    "scores": {
+      "instruction_following": 6.21,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 10.0,
+      "assumption_control": 10.0,
+      "final": 37.21
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 44 words",
+      "hallucination_detection": "0 speculative cues found in 44 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "44 words \u2013 Optimal length",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_130",
+    "scores": {
+      "instruction_following": -0.05,
+      "coherence_accuracy": 7.5,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 3.0,
+      "assumption_control": 10.0,
+      "final": 25.45
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "1 issue detected in 4 words",
+      "hallucination_detection": "0 speculative cues found in 4 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "4 words \u2013 Too short",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_131",
+    "scores": {
+      "instruction_following": 1.8,
+      "coherence_accuracy": 9.8,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 8.0,
+      "final": 29.14
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "3 issues detected in 147 words",
+      "hallucination_detection": "0 speculative cues found in 147 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "147 words \u2013 Too long",
+      "assumption_control": "1 speculative cue found"
+    }
+  },
+  {
+    "agent_id": "agent_132",
+    "scores": {
+      "instruction_following": 6.17,
+      "coherence_accuracy": 9.64,
+      "hallucination_detection": 10.0,
+      "style_matching": 8.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 33.38
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "2 issues detected in 55 words",
+      "hallucination_detection": "0 speculative cues found in 55 words",
+      "style_matching": "1 informal phrase detected",
+      "length_penalty": "55 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_133",
+    "scores": {
+      "instruction_following": 5.11,
+      "coherence_accuracy": 9.77,
+      "hallucination_detection": 10.0,
+      "style_matching": 8.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 32.43
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "3 issues detected in 129 words",
+      "hallucination_detection": "0 speculative cues found in 129 words",
+      "style_matching": "1 informal phrase detected",
+      "length_penalty": "129 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_134",
+    "scores": {
+      "instruction_following": 7.46,
+      "coherence_accuracy": 9.94,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 35.91
+    },
+    "explanations": {
+      "instruction_following": "High semantic match",
+      "coherence_accuracy": "1 issue detected in 159 words",
+      "hallucination_detection": "0 speculative cues found in 159 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "159 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_135",
+    "scores": {
+      "instruction_following": 7.27,
+      "coherence_accuracy": 9.78,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 10.0,
+      "assumption_control": 8.0,
+      "final": 37.09
+    },
+    "explanations": {
+      "instruction_following": "High semantic match",
+      "coherence_accuracy": "1 issue detected in 46 words",
+      "hallucination_detection": "0 speculative cues found in 46 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "46 words \u2013 Optimal length",
+      "assumption_control": "1 speculative cue found"
+    }
+  },
+  {
+    "agent_id": "agent_136",
+    "scores": {
+      "instruction_following": 2.51,
+      "coherence_accuracy": 9.49,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 30.6
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "8 issues detected in 158 words",
+      "hallucination_detection": "0 speculative cues found in 158 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "158 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_137",
+    "scores": {
+      "instruction_following": 4.89,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 10.0,
+      "assumption_control": 10.0,
+      "final": 35.89
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 35 words",
+      "hallucination_detection": "0 speculative cues found in 35 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "35 words \u2013 Optimal length",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_138",
+    "scores": {
+      "instruction_following": 3.22,
+      "coherence_accuracy": 9.77,
+      "hallucination_detection": 10.0,
+      "style_matching": 8.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 30.54
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "3 issues detected in 129 words",
+      "hallucination_detection": "0 speculative cues found in 129 words",
+      "style_matching": "1 informal phrase detected",
+      "length_penalty": "129 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_139",
+    "scores": {
+      "instruction_following": 7.91,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 10.0,
+      "assumption_control": 10.0,
+      "final": 38.91
+    },
+    "explanations": {
+      "instruction_following": "High semantic match",
+      "coherence_accuracy": "0 issues detected in 23 words",
+      "hallucination_detection": "0 speculative cues found in 23 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "23 words \u2013 Optimal length",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_140",
+    "scores": {
+      "instruction_following": 7.97,
+      "coherence_accuracy": 9.94,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 8.0,
+      "final": 35.42
+    },
+    "explanations": {
+      "instruction_following": "High semantic match",
+      "coherence_accuracy": "1 issue detected in 171 words",
+      "hallucination_detection": "0 speculative cues found in 171 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "171 words \u2013 Too long",
+      "assumption_control": "1 speculative cue found"
+    }
+  },
+  {
+    "agent_id": "agent_141",
+    "scores": {
+      "instruction_following": -0.24,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 10.0,
+      "assumption_control": 10.0,
+      "final": 30.76
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 26 words",
+      "hallucination_detection": "0 speculative cues found in 26 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "26 words \u2013 Optimal length",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_142",
+    "scores": {
+      "instruction_following": 3.34,
+      "coherence_accuracy": 9.66,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 10.0,
+      "assumption_control": 10.0,
+      "final": 34.07
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "1 issue detected in 29 words",
+      "hallucination_detection": "0 speculative cues found in 29 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "29 words \u2013 Optimal length",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_143",
+    "scores": {
+      "instruction_following": 2.99,
+      "coherence_accuracy": 9.33,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 30.95
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "4 issues detected in 60 words",
+      "hallucination_detection": "0 speculative cues found in 60 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "60 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_144",
+    "scores": {
+      "instruction_following": 6.04,
+      "coherence_accuracy": 9.93,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 34.48
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "1 issue detected in 140 words",
+      "hallucination_detection": "0 speculative cues found in 140 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "140 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_145",
+    "scores": {
+      "instruction_following": 9.88,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 10.0,
+      "assumption_control": 10.0,
+      "final": 40.88
+    },
+    "explanations": {
+      "instruction_following": "High semantic match",
+      "coherence_accuracy": "0 issues detected in 13 words",
+      "hallucination_detection": "0 speculative cues found in 13 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "13 words \u2013 Optimal length",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_146",
+    "scores": {
+      "instruction_following": 1.93,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 30.43
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 60 words",
+      "hallucination_detection": "0 speculative cues found in 60 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "60 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_147",
+    "scores": {
+      "instruction_following": 5.59,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 10.0,
+      "assumption_control": 10.0,
+      "final": 36.59
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 42 words",
+      "hallucination_detection": "0 speculative cues found in 42 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "42 words \u2013 Optimal length",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_148",
+    "scores": {
+      "instruction_following": 6.91,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 8.0,
+      "final": 34.41
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 68 words",
+      "hallucination_detection": "0 speculative cues found in 68 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "68 words \u2013 Too long",
+      "assumption_control": "1 speculative cue found"
+    }
+  },
+  {
+    "agent_id": "agent_149",
+    "scores": {
+      "instruction_following": 6.43,
+      "coherence_accuracy": 9.79,
+      "hallucination_detection": 10.0,
+      "style_matching": 8.0,
+      "length_penalty": 5.0,
+      "assumption_control": 8.0,
+      "final": 32.76
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "2 issues detected in 94 words",
+      "hallucination_detection": "0 speculative cues found in 94 words",
+      "style_matching": "1 informal phrase detected",
+      "length_penalty": "94 words \u2013 Too long",
+      "assumption_control": "1 speculative cue found"
+    }
+  },
+  {
+    "agent_id": "agent_150",
+    "scores": {
+      "instruction_following": 5.42,
+      "coherence_accuracy": 9.81,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 33.77
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "1 issue detected in 52 words",
+      "hallucination_detection": "0 speculative cues found in 52 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "52 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_151",
+    "scores": {
+      "instruction_following": 0.98,
+      "coherence_accuracy": 8.15,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 10.0,
+      "assumption_control": 10.0,
+      "final": 30.5
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "5 issues detected in 27 words",
+      "hallucination_detection": "0 speculative cues found in 27 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "27 words \u2013 Optimal length",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_152",
+    "scores": {
+      "instruction_following": 4.53,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 33.03
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 81 words",
+      "hallucination_detection": "0 speculative cues found in 81 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "81 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_153",
+    "scores": {
+      "instruction_following": 1.81,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 30.31
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 56 words",
+      "hallucination_detection": "0 speculative cues found in 56 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "56 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_154",
+    "scores": {
+      "instruction_following": 7.82,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 8.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 35.32
+    },
+    "explanations": {
+      "instruction_following": "High semantic match",
+      "coherence_accuracy": "0 issues detected in 103 words",
+      "hallucination_detection": "0 speculative cues found in 103 words",
+      "style_matching": "1 informal phrase detected",
+      "length_penalty": "103 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_155",
+    "scores": {
+      "instruction_following": 6.93,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 8.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 34.43
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 75 words",
+      "hallucination_detection": "0 speculative cues found in 75 words",
+      "style_matching": "1 informal phrase detected",
+      "length_penalty": "75 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_156",
+    "scores": {
+      "instruction_following": 2.52,
+      "coherence_accuracy": 9.79,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 8.0,
+      "final": 29.85
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "2 issues detected in 97 words",
+      "hallucination_detection": "0 speculative cues found in 97 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "97 words \u2013 Too long",
+      "assumption_control": "1 speculative cue found"
+    }
+  },
+  {
+    "agent_id": "agent_157",
+    "scores": {
+      "instruction_following": 7.86,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 8.0,
+      "final": 35.36
+    },
+    "explanations": {
+      "instruction_following": "High semantic match",
+      "coherence_accuracy": "0 issues detected in 153 words",
+      "hallucination_detection": "0 speculative cues found in 153 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "153 words \u2013 Too long",
+      "assumption_control": "1 speculative cue found"
+    }
+  },
+  {
+    "agent_id": "agent_158",
+    "scores": {
+      "instruction_following": 6.07,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 10.0,
+      "assumption_control": 10.0,
+      "final": 37.07
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 21 words",
+      "hallucination_detection": "0 speculative cues found in 21 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "21 words \u2013 Optimal length",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_159",
+    "scores": {
+      "instruction_following": 6.01,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 8.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 33.51
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 63 words",
+      "hallucination_detection": "0 speculative cues found in 63 words",
+      "style_matching": "1 informal phrase detected",
+      "length_penalty": "63 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_160",
+    "scores": {
+      "instruction_following": 6.33,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 10.0,
+      "assumption_control": 10.0,
+      "final": 37.33
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 13 words",
+      "hallucination_detection": "0 speculative cues found in 13 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "13 words \u2013 Optimal length",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_161",
+    "scores": {
+      "instruction_following": 7.04,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 35.54
+    },
+    "explanations": {
+      "instruction_following": "High semantic match",
+      "coherence_accuracy": "0 issues detected in 98 words",
+      "hallucination_detection": "0 speculative cues found in 98 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "98 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_162",
+    "scores": {
+      "instruction_following": 3.93,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 8.0,
+      "length_penalty": 10.0,
+      "assumption_control": 10.0,
+      "final": 33.93
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 31 words",
+      "hallucination_detection": "0 speculative cues found in 31 words",
+      "style_matching": "1 informal phrase detected",
+      "length_penalty": "31 words \u2013 Optimal length",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_163",
+    "scores": {
+      "instruction_following": 0.43,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 3.0,
+      "assumption_control": 10.0,
+      "final": 27.93
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 1 words",
+      "hallucination_detection": "0 speculative cues found in 1 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "1 words \u2013 Too short",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_164",
+    "scores": {
+      "instruction_following": 6.11,
+      "coherence_accuracy": 8.33,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 10.0,
+      "assumption_control": 10.0,
+      "final": 35.77
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "7 issues detected in 42 words",
+      "hallucination_detection": "0 speculative cues found in 42 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "42 words \u2013 Optimal length",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_165",
+    "scores": {
+      "instruction_following": 7.16,
+      "coherence_accuracy": 9.91,
+      "hallucination_detection": 10.0,
+      "style_matching": 8.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 34.59
+    },
+    "explanations": {
+      "instruction_following": "High semantic match",
+      "coherence_accuracy": "1 issue detected in 117 words",
+      "hallucination_detection": "0 speculative cues found in 117 words",
+      "style_matching": "1 informal phrase detected",
+      "length_penalty": "117 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_166",
+    "scores": {
+      "instruction_following": 6.14,
+      "coherence_accuracy": 9.46,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 34.21
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "4 issues detected in 74 words",
+      "hallucination_detection": "0 speculative cues found in 74 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "74 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_167",
+    "scores": {
+      "instruction_following": 7.36,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 10.0,
+      "assumption_control": 10.0,
+      "final": 38.36
+    },
+    "explanations": {
+      "instruction_following": "High semantic match",
+      "coherence_accuracy": "0 issues detected in 25 words",
+      "hallucination_detection": "0 speculative cues found in 25 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "25 words \u2013 Optimal length",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_168",
+    "scores": {
+      "instruction_following": 1.73,
+      "coherence_accuracy": 9.84,
+      "hallucination_detection": 10.0,
+      "style_matching": 8.0,
+      "length_penalty": 5.0,
+      "assumption_control": 8.0,
+      "final": 28.1
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "5 issues detected in 322 words",
+      "hallucination_detection": "0 speculative cues found in 322 words",
+      "style_matching": "1 informal phrase detected",
+      "length_penalty": "322 words \u2013 Too long",
+      "assumption_control": "1 speculative cue found"
+    }
+  },
+  {
+    "agent_id": "agent_169",
+    "scores": {
+      "instruction_following": 6.53,
+      "coherence_accuracy": 9.89,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 34.94
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "2 issues detected in 182 words",
+      "hallucination_detection": "0 speculative cues found in 182 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "182 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_170",
+    "scores": {
+      "instruction_following": 5.59,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 10.0,
+      "assumption_control": 10.0,
+      "final": 36.59
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 16 words",
+      "hallucination_detection": "0 speculative cues found in 16 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "16 words \u2013 Optimal length",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_171",
+    "scores": {
+      "instruction_following": 6.72,
+      "coherence_accuracy": 9.3,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 34.66
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "5 issues detected in 71 words",
+      "hallucination_detection": "0 speculative cues found in 71 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "71 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_172",
+    "scores": {
+      "instruction_following": 7.26,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 35.76
+    },
+    "explanations": {
+      "instruction_following": "High semantic match",
+      "coherence_accuracy": "0 issues detected in 101 words",
+      "hallucination_detection": "0 speculative cues found in 101 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "101 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_173",
+    "scores": {
+      "instruction_following": 3.79,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 8.0,
+      "length_penalty": 5.0,
+      "assumption_control": 8.0,
+      "final": 30.29
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 129 words",
+      "hallucination_detection": "0 speculative cues found in 129 words",
+      "style_matching": "1 informal phrase detected",
+      "length_penalty": "129 words \u2013 Too long",
+      "assumption_control": "1 speculative cue found"
+    }
+  },
+  {
+    "agent_id": "agent_174",
+    "scores": {
+      "instruction_following": 6.82,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 10.0,
+      "assumption_control": 10.0,
+      "final": 37.82
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 48 words",
+      "hallucination_detection": "0 speculative cues found in 48 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "48 words \u2013 Optimal length",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_175",
+    "scores": {
+      "instruction_following": 6.19,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 8.0,
+      "final": 33.69
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 168 words",
+      "hallucination_detection": "0 speculative cues found in 168 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "168 words \u2013 Too long",
+      "assumption_control": "1 speculative cue found"
+    }
+  },
+  {
+    "agent_id": "agent_176",
+    "scores": {
+      "instruction_following": 4.13,
+      "coherence_accuracy": 9.33,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 10.0,
+      "assumption_control": 10.0,
+      "final": 34.59
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "2 issues detected in 30 words",
+      "hallucination_detection": "0 speculative cues found in 30 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "30 words \u2013 Optimal length",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_177",
+    "scores": {
+      "instruction_following": 7.92,
+      "coherence_accuracy": 9.81,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 36.27
+    },
+    "explanations": {
+      "instruction_following": "High semantic match",
+      "coherence_accuracy": "1 issue detected in 52 words",
+      "hallucination_detection": "0 speculative cues found in 52 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "52 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_178",
+    "scores": {
+      "instruction_following": 4.36,
+      "coherence_accuracy": 9.78,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 8.0,
+      "final": 31.68
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "3 issues detected in 136 words",
+      "hallucination_detection": "0 speculative cues found in 136 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "136 words \u2013 Too long",
+      "assumption_control": "1 speculative cue found"
+    }
+  },
+  {
+    "agent_id": "agent_179",
+    "scores": {
+      "instruction_following": 5.33,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 8.0,
+      "length_penalty": 5.0,
+      "assumption_control": 8.0,
+      "final": 31.83
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 59 words",
+      "hallucination_detection": "0 speculative cues found in 59 words",
+      "style_matching": "1 informal phrase detected",
+      "length_penalty": "59 words \u2013 Too long",
+      "assumption_control": "1 speculative cue found"
+    }
+  },
+  {
+    "agent_id": "agent_180",
+    "scores": {
+      "instruction_following": 5.62,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 10.0,
+      "assumption_control": 10.0,
+      "final": 36.62
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 27 words",
+      "hallucination_detection": "0 speculative cues found in 27 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "27 words \u2013 Optimal length",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_181",
+    "scores": {
+      "instruction_following": 3.51,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 32.01
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 52 words",
+      "hallucination_detection": "0 speculative cues found in 52 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "52 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_182",
+    "scores": {
+      "instruction_following": 6.09,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 8.0,
+      "final": 33.59
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 88 words",
+      "hallucination_detection": "0 speculative cues found in 88 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "88 words \u2013 Too long",
+      "assumption_control": "1 speculative cue found"
+    }
+  },
+  {
+    "agent_id": "agent_183",
+    "scores": {
+      "instruction_following": 0.1,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 10.0,
+      "assumption_control": 10.0,
+      "final": 31.1
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 38 words",
+      "hallucination_detection": "0 speculative cues found in 38 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "38 words \u2013 Optimal length",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_184",
+    "scores": {
+      "instruction_following": 4.71,
+      "coherence_accuracy": 9.27,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 10.0,
+      "assumption_control": 8.0,
+      "final": 34.13
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "3 issues detected in 41 words",
+      "hallucination_detection": "0 speculative cues found in 41 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "41 words \u2013 Optimal length",
+      "assumption_control": "1 speculative cue found"
+    }
+  },
+  {
+    "agent_id": "agent_185",
+    "scores": {
+      "instruction_following": 3.8,
+      "coherence_accuracy": 9.62,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 32.0
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "2 issues detected in 53 words",
+      "hallucination_detection": "0 speculative cues found in 53 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "53 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_186",
+    "scores": {
+      "instruction_following": 5.19,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 8.0,
+      "final": 32.69
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 145 words",
+      "hallucination_detection": "0 speculative cues found in 145 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "145 words \u2013 Too long",
+      "assumption_control": "1 speculative cue found"
+    }
+  },
+  {
+    "agent_id": "agent_187",
+    "scores": {
+      "instruction_following": 6.2,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 8.0,
+      "final": 33.7
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 153 words",
+      "hallucination_detection": "0 speculative cues found in 153 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "153 words \u2013 Too long",
+      "assumption_control": "1 speculative cue found"
+    }
+  },
+  {
+    "agent_id": "agent_188",
+    "scores": {
+      "instruction_following": 6.4,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 8.0,
+      "final": 33.9
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 75 words",
+      "hallucination_detection": "0 speculative cues found in 75 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "75 words \u2013 Too long",
+      "assumption_control": "1 speculative cue found"
+    }
+  },
+  {
+    "agent_id": "agent_189",
+    "scores": {
+      "instruction_following": 6.73,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 10.0,
+      "assumption_control": 10.0,
+      "final": 37.73
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 50 words",
+      "hallucination_detection": "0 speculative cues found in 50 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "50 words \u2013 Optimal length",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_190",
+    "scores": {
+      "instruction_following": 5.76,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 10.0,
+      "assumption_control": 10.0,
+      "final": 36.76
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 46 words",
+      "hallucination_detection": "0 speculative cues found in 46 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "46 words \u2013 Optimal length",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_191",
+    "scores": {
+      "instruction_following": 4.36,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 8.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 31.86
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 70 words",
+      "hallucination_detection": "0 speculative cues found in 70 words",
+      "style_matching": "1 informal phrase detected",
+      "length_penalty": "70 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_192",
+    "scores": {
+      "instruction_following": 8.19,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 36.69
+    },
+    "explanations": {
+      "instruction_following": "High semantic match",
+      "coherence_accuracy": "0 issues detected in 122 words",
+      "hallucination_detection": "0 speculative cues found in 122 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "122 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_193",
+    "scores": {
+      "instruction_following": 6.16,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 8.0,
+      "length_penalty": 10.0,
+      "assumption_control": 10.0,
+      "final": 36.16
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 46 words",
+      "hallucination_detection": "0 speculative cues found in 46 words",
+      "style_matching": "1 informal phrase detected",
+      "length_penalty": "46 words \u2013 Optimal length",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_194",
+    "scores": {
+      "instruction_following": 4.63,
+      "coherence_accuracy": 9.88,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 8.0,
+      "final": 32.03
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "1 issue detected in 84 words",
+      "hallucination_detection": "0 speculative cues found in 84 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "84 words \u2013 Too long",
+      "assumption_control": "1 speculative cue found"
+    }
+  },
+  {
+    "agent_id": "agent_195",
+    "scores": {
+      "instruction_following": 5.04,
+      "coherence_accuracy": 9.9,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 33.46
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "1 issue detected in 102 words",
+      "hallucination_detection": "0 speculative cues found in 102 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "102 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_196",
+    "scores": {
+      "instruction_following": 7.12,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 10.0,
+      "final": 35.62
+    },
+    "explanations": {
+      "instruction_following": "High semantic match",
+      "coherence_accuracy": "0 issues detected in 81 words",
+      "hallucination_detection": "0 speculative cues found in 81 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "81 words \u2013 Too long",
+      "assumption_control": "0 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_197",
+    "scores": {
+      "instruction_following": 8.27,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 10.0,
+      "length_penalty": 5.0,
+      "assumption_control": 6.0,
+      "final": 34.77
+    },
+    "explanations": {
+      "instruction_following": "High semantic match",
+      "coherence_accuracy": "0 issues detected in 78 words",
+      "hallucination_detection": "0 speculative cues found in 78 words",
+      "style_matching": "0 informal phrases detected",
+      "length_penalty": "78 words \u2013 Too long",
+      "assumption_control": "2 speculative cues found"
+    }
+  },
+  {
+    "agent_id": "agent_198",
+    "scores": {
+      "instruction_following": 7.75,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "style_matching": 8.0,
+      "length_penalty": 5.0,
+      "assumption_control": 8.0,
+      "final": 34.25
+    },
+    "explanations": {
+      "instruction_following": "High semantic match",
+      "coherence_accuracy": "0 issues detected in 101 words",
+      "hallucination_detection": "0 speculative cues found in 101 words",
+      "style_matching": "1 informal phrase detected",
+      "length_penalty": "101 words \u2013 Too long",
+      "assumption_control": "1 speculative cue found"
+    }
+  },
+  {
+    "agent_id": "agent_199",
+    "scores": {
+      "instruction_following": 6.57,
+      "coherence_accuracy": 9.62,
+      "hallucination_detection": 10.0,
+      "style_matching": 8.0,
+      "length_penalty": 5.0,
+      "assumption_control": 8.0,
+      "final": 32.77
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "3 issues detected in 80 words",
+      "hallucination_detection": "0 speculative cues found in 80 words",
+      "style_matching": "1 informal phrase detected",
+      "length_penalty": "80 words \u2013 Too long",
+      "assumption_control": "1 speculative cue found"
+    }
+  }
+]

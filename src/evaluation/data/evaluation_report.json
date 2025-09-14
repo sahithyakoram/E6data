@@ -1,0 +1,58 @@
+[
+  {
+    "agent_id": "Agent_001",
+    "scores": {
+      "instruction_following": 3.64,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "final": 23.64
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 1 words",
+      "hallucination_detection": "0 speculative cues found in 1 words"
+    }
+  },
+  {
+    "agent_id": "Agent_002",
+    "scores": {
+      "instruction_following": 5.33,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "final": 25.33
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 6 words",
+      "hallucination_detection": "0 speculative cues found in 6 words"
+    }
+  },
+  {
+    "agent_id": "Agent_003",
+    "scores": {
+      "instruction_following": 7.44,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 10.0,
+      "final": 27.44
+    },
+    "explanations": {
+      "instruction_following": "High semantic match",
+      "coherence_accuracy": "0 issues detected in 9 words",
+      "hallucination_detection": "0 speculative cues found in 9 words"
+    }
+  },
+  {
+    "agent_id": "Agent_004",
+    "scores": {
+      "instruction_following": 5.9,
+      "coherence_accuracy": 10.0,
+      "hallucination_detection": 6.0,
+      "final": 19.9
+    },
+    "explanations": {
+      "instruction_following": "Partial or weak alignment",
+      "coherence_accuracy": "0 issues detected in 13 words",
+      "hallucination_detection": "2 speculative cues found in 13 words"
+    }
+  }
+]
