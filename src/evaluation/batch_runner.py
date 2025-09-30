@@ -6,7 +6,6 @@ import os
 from pathlib import Path
 from evaluation.evaluate_with_llm import evaluate_with_llm
 
-# 🧮 Traditional scoring logic
 def evaluate_traditional(prompt: str, response: str) -> dict:
     scores = {
         "instruction_following": 7.0 if "follow" in response.lower() else 4.0,
@@ -70,17 +69,17 @@ def run_batch_evaluation(
             logging.warning(f"⚠️ Error evaluating '{agent_id}': {e}")
             continue
 
-        time.sleep(0.5)  # ⏱️ Throttle to avoid rate-limit spikes
+        time.sleep(0.5)
 
     try:
         with output_path.open("w", encoding="utf-8") as f:
             json.dump(results, f, indent=2)
-        logging.info(f"✅ Saved evaluation report to '{output_path}'.")
+        logging.info(f"Saved evaluation report to '{output_path}'.")
     except Exception as e:
-        logging.error(f"❌ Failed to write report to '{output_path}': {e}")
+        logging.error(f"Failed to write report to '{output_path}': {e}")
 
     if not results:
-        logging.warning("⚠️ No results to display on leaderboard.")
+        logging.warning("No results to display on leaderboard.")
         return results
 
     default_dim = "final" if "final" in results[0]["scores"] else "instruction_following"
@@ -91,7 +90,7 @@ def run_batch_evaluation(
         reverse=True
     )
 
-    print(f"\n📊 Leaderboard – sorted by '{rank_dim}'")
+    print(f"\nLeaderboard – sorted by '{rank_dim}'")
     for idx, r in enumerate(sorted_results, start=1):
         s = r["scores"]
         line = (
@@ -146,9 +145,9 @@ def main():
             if not api_key:
                 raise ValueError(f"No API key found for batch {args.batch_id}")
             os.environ["GROQ_API_KEY"] = api_key
-            logging.info(f"🔑 Set Groq API key for batch {args.batch_id}")
+            logging.info(f"Set Groq API key for batch {args.batch_id}")
         except Exception as e:
-            logging.error(f"❌ Failed to set Groq API key: {e}")
+            logging.error(f"Failed to set Groq API key: {e}")
             return
 
     weights = {}
@@ -156,9 +155,9 @@ def main():
         try:
             with args.weights.open("r", encoding="utf-8") as wf:
                 weights = json.load(wf)
-            logging.info(f"📦 Loaded weights from '{args.weights}'.")
+            logging.info(f"Loaded weights from '{args.weights}'.")
         except Exception as e:
-            logging.error(f"❌ Failed to load weights file '{args.weights}': {e}")
+            logging.error(f"Failed to load weights file '{args.weights}': {e}")
             return
 
     start_time = time.time()
@@ -188,7 +187,7 @@ if __name__ == "__main__":
 # from pathlib import Path
 # from evaluation.evaluate_with_llm import evaluate_with_llm
 #
-# # 🧮 Traditional scoring logic
+# # Traditional scoring logic
 # def evaluate_traditional(prompt: str, response: str) -> dict:
 #     scores = {
 #         "instruction_following": 7.0 if "follow" in response.lower() else 4.0,
@@ -215,18 +214,18 @@ if __name__ == "__main__":
 #         with input_path.open("r", encoding="utf-8") as f:
 #             data = json.load(f)
 #     except Exception as e:
-#         logging.error(f"❌ Failed to load input file '{input_path}': {e}")
+#         logging.error(f"Failed to load input file '{input_path}': {e}")
 #         return []
 #
-#     # 🧠 Load existing results for resume
+#     # Load existing results for resume
 #     existing_results = {}
 #     if output_path.exists():
 #         try:
 #             with output_path.open("r", encoding="utf-8") as f:
 #                 existing_results = {r["agent_id"]: r for r in json.load(f)}
-#             logging.info(f"🧠 Resuming from {len(existing_results)} previously scored agents.")
+#             logging.info(f"Resuming from {len(existing_results)} previously scored agents.")
 #         except Exception:
-#             logging.warning("⚠️ Could not parse existing output file. Starting fresh.")
+#             logging.warning("Could not parse existing output file. Starting fresh.")
 #
 #     for idx, item in enumerate(data):
 #         agent_id = item.get("agent_id", f"agent_{idx}")
@@ -234,7 +233,7 @@ if __name__ == "__main__":
 #         response = item.get("response", "")
 #
 #         if agent_id in existing_results:
-#             logging.info(f"⏩ Skipping already scored agent: {agent_id}")
+#             logging.info(f"Skipping already scored agent: {agent_id}")
 #             continue
 #
 #         try:
@@ -244,12 +243,12 @@ if __name__ == "__main__":
 #                 if not api_key:
 #                     raise ValueError(f"No API key found for index {key_index}")
 #                 os.environ["GROQ_API_KEY"] = api_key
-#                 logging.info(f"🔑 Using key {key_index} for agent {agent_id}")
+#                 logging.info(f"Using key {key_index} for agent {agent_id}")
 #
-#                 logging.info(f"🔍 Scoring with Groq ({model}): {agent_id}")
+#                 logging.info(f"Scoring with Groq ({model}): {agent_id}")
 #                 eval_result = evaluate_with_llm(prompt, response, model=model)
 #             else:
-#                 logging.info(f"🧮 Scoring with traditional evaluator: {agent_id}")
+#                 logging.info(f"Scoring with traditional evaluator: {agent_id}")
 #                 eval_result = evaluate_traditional(prompt, response)
 #
 #             eval_result["agent_id"] = agent_id
@@ -270,31 +269,31 @@ if __name__ == "__main__":
 #             }
 #
 #         except Exception as e:
-#             logging.warning(f"⚠️ Error evaluating '{agent_id}': {e}")
+#             logging.warning(f"Error evaluating '{agent_id}': {e}")
 #             continue
 #
 #         time.sleep(0.5)
 #
-#         # 💾 Save every 10 agents
+#         # Save every 10 agents
 #         if idx % 10 == 0:
 #             try:
 #                 with output_path.open("w", encoding="utf-8") as f:
 #                     json.dump(list(existing_results.values()), f, indent=2)
-#                 logging.info(f"💾 Checkpoint saved at agent {agent_id}")
+#                 logging.info(f"Checkpoint saved at agent {agent_id}")
 #             except Exception as e:
-#                 logging.error(f"❌ Failed to write checkpoint: {e}")
+#                 logging.error(f"Failed to write checkpoint: {e}")
 #
-#     # ✅ Final save
+#     # Final save
 #     try:
 #         with output_path.open("w", encoding="utf-8") as f:
 #             json.dump(list(existing_results.values()), f, indent=2)
-#         logging.info(f"✅ Final report saved to '{output_path}'.")
+#         logging.info(f"Final report saved to '{output_path}'.")
 #     except Exception as e:
-#         logging.error(f"❌ Failed to write final report: {e}")
+#         logging.error(f"Failed to write final report: {e}")
 #
-#     # 📊 Leaderboard
+#     # Leaderboard
 #     if not existing_results:
-#         logging.warning("⚠️ No results to display on leaderboard.")
+#         logging.warning("No results to display on leaderboard.")
 #         return []
 #
 #     default_dim = "final" if "final" in next(iter(existing_results.values()))["scores"] else "instruction_following"
@@ -305,7 +304,7 @@ if __name__ == "__main__":
 #         reverse=True
 #     )
 #
-#     print(f"\n📊 Leaderboard – sorted by '{rank_dim}'")
+#     print(f"\nLeaderboard – sorted by '{rank_dim}'")
 #     for idx, r in enumerate(sorted_results, start=1):
 #         s = r["scores"]
 #         line = (
@@ -342,9 +341,9 @@ if __name__ == "__main__":
 #         try:
 #             with args.key_map.open("r", encoding="utf-8") as kf:
 #                 key_map = json.load(kf)
-#             logging.info(f"🔑 Loaded {len(key_map)} Groq API keys from '{args.key_map}'.")
+#             logging.info(f"Loaded {len(key_map)} Groq API keys from '{args.key_map}'.")
 #         except Exception as e:
-#             logging.error(f"❌ Failed to load key map: {e}")
+#             logging.error(f"Failed to load key map: {e}")
 #             return
 #
 #     weights = {}
@@ -352,9 +351,9 @@ if __name__ == "__main__":
 #         try:
 #             with args.weights.open("r", encoding="utf-8") as wf:
 #                 weights = json.load(wf)
-#             logging.info(f"📦 Loaded weights from '{args.weights}'.")
+#             logging.info(f"Loaded weights from '{args.weights}'.")
 #         except Exception as e:
-#             logging.error(f"❌ Failed to load weights file '{args.weights}': {e}")
+#             logging.error(f"Failed to load weights file '{args.weights}': {e}")
 #             return
 #
 #     start_time = time.time()
@@ -368,7 +367,7 @@ if __name__ == "__main__":
 #         key_map=key_map if args.use_llm else None
 #     )
 #     elapsed = time.time() - start_time
-#     logging.info(f"⏱️ Processed {len(results)} agents in {elapsed:.2f}s")
+#     logging.info(f"Processed {len(results)} agents in {elapsed:.2f}s")
 #
 # if __name__ == "__main__":
 #     main()
